@@ -1,8 +1,9 @@
 import React from 'react'
-import WorkIm from '../assets/projects/workImg.jpeg'
-import RealEst from '../assets/projects/realestate.jpg'
+import { data } from "../data/data.js";
 
 export default function Work() {
+    const project = data;
+    console.log(project)
     return (
         <div name='work' className='w-full md:h-screen text-gray-300 bg-[#0a192f]'>
             {/* container */}
@@ -12,27 +13,33 @@ export default function Work() {
                     <p className='py-6'>// Check out some of my recent work</p>
                 </div>
                 {/* grid-container */}
-                <div  className='grid sm:grid-cols-2 md:grid-cols-3 gap-4'>
-                {/* Grid Items */}
-                    <div style={{background:`url(${WorkIm})`}} className='shadow-lg shadow-[#040c16] group container rounded-md flex justify-center mx-auto content-div'>
-                        {/* hover effects */}
-                        <div className='opacity-0 group-hover:opacity-100'>
-                            <span className='text-2xl font-bold text-white tracking-wider'>
-                                React JS Application
-                            </span>
-                            <div className='pt-8 text-center'>
-                                <a href='/'>
-                                    <button className='bg-white text-gray-700 font-bold text-lg text-center rounded-lg px-4 py-3 m-2'>Demo</button>
-                                </a>
-                                <a href='/'>
-                                    <button className='bg-white text-gray-700 font-bold text-lg text-center rounded-lg px-4 py-3 m-2'>Code</button>
-                                </a>
+                <div className='grid sm:grid-cols-2 md:grid-cols-3 gap-4'>
+                    {/* Grid Items */}
+                    {project.map((item, index) => (
+                        <div
+                            key={index}
+                            style={{ backgroundImage: `url(${item.image})` }}
+                            className="shadow-lg shadow-[#040c16] group container rounded-md 
+                                        flex justify-center text-center items-center mx-auto content-div "
+                        >
+                            {/* hover effects */}
+                            <div className='opacity-0 group-hover:opacity-100'>
+                                <span className='text-2xl font-bold text-white tracking-wider'>
+                                    React JS Application
+                                </span>
+                                <div className='pt-8 text-center'>
+                                    <a href='http://spotify-clone.elhammirzavand.se/'>
+                                        <button className='bg-white text-gray-700 font-bold text-lg text-center rounded-lg px-4 py-3 m-2'>Demo</button>
+                                    </a>
+                                    <a href='https://github.com/elhammmi/Spotify-Clone'>
+                                        <button className='bg-white text-gray-700 font-bold text-lg text-center rounded-lg px-4 py-3 m-2'>Code</button>
+                                    </a>
+                                </div>
                             </div>
                         </div>
-                    </div>
+                    ))}
                 </div>
             </div>
-
         </div>
     )
 }
