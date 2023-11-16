@@ -2,7 +2,7 @@ import React from 'react'
 
 export default function About() {
     return (
-        <div name='about' className='w-full h-screen bg-[#0a192f] text-gray-300'>
+        <div name='about' className='w-full bg-[#0a192f] text-gray-300'>
             <div className='flex flex-col justify-center items-center w-full h-full'>
                 <div className='max-w-[1000px]  w-full px-4 grid grid-cols-2 gap-8'>
                     <div className='sm:text-left pb-8 pl-4'>
@@ -16,7 +16,7 @@ export default function About() {
                             Hi. I'm Elham Mirzavand, nice to meet you. Please take a look around.
                         </p>
                     </div>
-                    <div>
+                    <div >
                         <p>
                             I am passionate about learning new technologies and building user-friendly applications.
                             My educational background includes a Master of Science in Information Technology and a Bachelor of Science in Computer Science.
