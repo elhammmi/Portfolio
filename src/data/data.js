@@ -8,7 +8,7 @@ export const data=[
         name:"React JS Application",
         image:Spotify,
         github:"https://github.com/elhammmi/Spotify-Clone",
-        live:"https://github.com/elhammmi/Spotify-Clone",
+        live:"http://spotify-clone.elhammirzavand.se/",
     },
     {
         id:2,
