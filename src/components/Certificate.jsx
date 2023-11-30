@@ -1,7 +1,7 @@
 import React from 'react'
-import { data } from "../data/projectsData.js";
+import { data } from "../data/certificatesData.js";
 
-export default function Work() {
+export default function Certificate() {
     const project = data;
     console.log(project)
     return (
@@ -9,8 +9,8 @@ export default function Work() {
             {/* container */}
             <div className='max-w-[1000px] flex flex-col mx-auto p-4 justify-center w-full'>
                 <div className='pb-8'>
-                    <p className='text-4xl font-bold inline border-b-4 border-[#899555] text-[#501c1c]'>Works</p>
-                    <p className='py-6 text-[#501c1c] font-semibold'>Check out some of my recent work</p>
+                    <p className='text-4xl font-bold inline border-b-4 border-[#899555] text-[#501c1c]'>Certificates</p>
+                    <p className='py-6 text-[#501c1c] font-semibold'>Check out some of my recent certificate</p>
                 </div>
                 {/* grid-container */}
                 <div className='grid sm:grid-cols-2 md:grid-cols-3 gap-4'>
