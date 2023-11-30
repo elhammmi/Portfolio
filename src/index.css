@@ -13,3 +13,28 @@
         @apply cursor-pointer;
     }
 }
+.content-div{
+    background-repeat: no-repeat !important;
+    background-size: cover !important;
+    background-position: center !important;
+    height: 250px;
+}
+.content-div:hover {
+    background-image: linear-gradient(
+        to left,
+        rgba(209,134,41,1),
+        hsla(46, 74%, 61%, 0.8)   
+        
+    )!important;
+}
+.background-custom{
+    background-image: url('/src/assets/girl2.jpg') !important;
+    background-size: cover;
+    border-radius: 10px;
+    width: 100%;
+    height: 300px;
+    background-position: center;
+}
+.bg-nav-custom-color{
+    background-color: #d18629;
+}
