@@ -4,11 +4,7 @@ import CSS from '../assets/css.png';
 import JavaScript from '../assets/javascript.png';
 import ReactImg from '../assets/react.png';
 import Node from '../assets/node.png';
-import FireBase from '../assets/firebase.png';
 import GitHub from '../assets/github2.png';
-import Tailwind from '../assets/tailwind.png';
-import Mongo from '../assets/mongo.png';
-import AWS from '../assets/aws.png';
 import NEXTJS from '../assets/NextjsLogo.png';
 import MySQL from '../assets/mysql.png';
 export default function Skills() {
