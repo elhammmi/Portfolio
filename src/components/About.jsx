@@ -13,7 +13,7 @@ export default function About() {
                 <div className='max-w-[1000px]  w-full px-4 grid sm:grid-cols-1 md:grid-cols-2 gap-8'>
                     <div className='sm:text-left pb-8 pl-4'>
                         <p className='text-2xl text-[#501c1c] font-bold inline border-b-4 border-[#899555]'>
-                            Hi. My name is Elham Mirzavand, nice to meet you. Please take a look around.
+                            Hi. My name is Elham , nice to meet you. Please take a look around.
                         </p>
                     </div>
                     <div className='pb-8 pl-4 text-[#501c1c]'>
