@@ -29,7 +29,7 @@ export default function Certificate() {
                                 </span>
                                 <div className='pt-8 text-center'>
                                     <a href={item.live}>
-                                        <button className='bg-white text-[#899555] font-bold text-lg text-center rounded-lg px-4 py-3 m-2'>Demo</button>
+                                        <button className='bg-white text-[#899555] font-bold text-lg text-center rounded-lg px-4 py-3 m-2'>View</button>
                                     </a>
                                     {item.github !== '' ? <a href={item.github}>
                                         <button className='bg-white text-[#899555] font-bold text-lg text-center rounded-lg px-4 py-3 m-2'>Code</button>
