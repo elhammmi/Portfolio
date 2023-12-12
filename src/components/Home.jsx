@@ -1,7 +1,7 @@
 import React from 'react'
 import { HiArrowNarrowRight } from 'react-icons/hi';
 import { Link } from 'react-scroll';
-import girlImage from '../assets/girl.jpg'
+
 
 
 export default function Home() {
@@ -15,12 +15,13 @@ export default function Home() {
                 <div className='grid sm:grid-cols-2 md:grid-cols-2 gap-4'>
                 <div className='background-custom'></div>
                 <div >
-                    <p className='text-[#899555]'>Hi, my name is</p>
+                    
+                    {/* <p className='text-[#899555]'>Hi, my name is</p> */}
                     <h1 className='text-4xl sm:text-7xlf font-bold text-[#899555]'>
                         Elham Mirzavand
                     </h1>
                     <h2 className='text-4xl sm:text-7xlf font-bold text-[#501c1c]'>
-                        I am a Full Stack Developer.
+                        Full-Stack Developer
                     </h2>
                     <p className='text-[#501c1c] py-4 max-w-[700px]'>
                         I am a full-stack developer specializing in user-friendly web applications.
